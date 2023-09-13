@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+.chatbot-btn-div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.outline-box{
+  height: auto;
+  padding-bottom: 10px;
+  width: 300px;
+  border: 1px solid black;
+}
+
+input{
+  width: 280px;
+  text-align: center;
+}
+
+.user-msg , .support-msg {
+  border: solid 0.5px black;
+  margin: 8px 5px 5px 5px;
+}
+
+.user-msg{
+  width: 200px;
+  position: relative;
+  left: 90px;
+}
+.support-msg{
+  background-color: #d7f4fc;
+  width: 200px;
+}
+
+button{
+  margin: 5px 10px 10px 10px;
+}
+.header{
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 0px;
+  font-size: 30px;
+  font-family: monospace;
+}
